@@ -14,7 +14,7 @@ class:
 
 The landscape of AI has been evolving rapidly, with each iteration bringing in advancements that expand the horizons of what's possible. Today, we will delve into the journey of OpenAI's models and their practical applications.
 
-This presentation is hosted at 
+This presentation is hosted at [https://paulburkhalter.github.io/openai-presnetation/presentation.html](https://paulburkhalter.github.io/openai-presnetation/presentation.html)
 
 ---
 
@@ -22,6 +22,14 @@ This presentation is hosted at
 
 - Demonstrate the practical applications of OpenAI models.
 - Highlight the evolution of AI models and their increasing impact in solving real-world problems, in a way that is incredibly accessible to normal developers.
+
+### Example API Key you can use
+Please don't be mean!
+
+[API Key](https://privatebin.net/?143823bb1ee8306f#AmWHXjjjqkvDez6mg6P2F4WTc1dN4LPZKpxqrw363CSM)
+
+
+Password: `SIUOpenAI2024$7Z$k`  
 
 ---
 
@@ -221,6 +229,18 @@ Well crap...
 Classify this discord message as spam/not spam: Not spam.
 ```
 
+### Maybe GPT 4?
+
+Whoo! Finally!
+
+```
+We have collaborated with OPENSEA on a new free mint. Users in this server can participate.
+
+🚀 @everyone @here You can be selected, please participate in MINT as soon as possible."
+Classify this discord message as spam/not spam:
+Spam
+```
+
 ---
 ### Using the Chat API
 The completions API is now deprecated and should be avoided. The API recommended now is the "Chat" API.
@@ -311,6 +331,9 @@ We have collaborated with OPENSEA on a new free mint. Users in this server can p
 🚀 @everyone @here You can be selected, please participate in MINT as soon as possible."
 Classify this discord message as spam/not spam: Spam
 ```
+
+---
+
 ### Example True Positives
 
 Very few false negatives
@@ -402,7 +425,7 @@ My data showed about $0.01 / data point. But this could be better with a shorter
 ```
 
 ---
-### Extract Thread ID and content
+### Extract Content
 ```bash
 jq -r '.choices[0].message.content' response.json
 
