@@ -14,7 +14,7 @@ class:
 
 The landscape of AI has been evolving rapidly, with each iteration bringing in advancements that expand the horizons of what's possible. Today, we will delve into the journey of OpenAI's models and their practical applications.
 
-This presentation is hosted at [https://paulburkhalter.github.io/openai-presnetation/presentation.html](https://paulburkhalter.github.io/openai-presnetation/presentation.html)
+This presentation is hosted at [https://paulburkhalter.github.io/openai-presentation/presentation.html](https://paulburkhalter.github.io/openai-presentation/presentation.html)
 
 ---
 
