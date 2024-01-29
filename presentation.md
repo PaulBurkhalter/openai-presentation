@@ -31,6 +31,8 @@ Please don't be mean!
 
 Password: `SIUOpenAI2024$7Z$k`  
 
+[Jupyter Notebook](https://github.com/PaulBurkhalter/openai-presentation/blob/main/openai.ipynb)
+
 ---
 
 
